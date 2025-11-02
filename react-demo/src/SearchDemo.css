@@ -1,0 +1,106 @@
+.search-demo {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-demo h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.search-container {
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: #646cff;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #d32f2f;
+}
+
+.btn-flush {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-flush:hover {
+  background-color: #45a049;
+}
+
+.current-value {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  font-family: monospace;
+}
+
+.current-value em {
+  color: #999;
+}
+
+.info-box {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  color: #1976d2;
+}
+
+.info-box ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.info-box li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.info-box li:last-child {
+  margin-bottom: 0;
+}
