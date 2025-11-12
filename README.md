@@ -1,4 +1,4 @@
-# DigiExpress, Debounce (Core JS → React Hook) — #09
+[# DigiExpress, Debounce (Core JS → React Hook) — #09
 ## Part A — Implement `debounce`
 
 **Goal:** Write a **pure JavaScript** `debounce(fn, wait, options?)` that delays invoking `fn` until `wait` ms since the last call.
@@ -139,3 +139,4 @@ function useDebouncedCallback<T extends (...args:any[])=>any>(
     
 
 **Evaluation focuses on:** correctness (incl. edge cases), API design, clarity, and React interop (memoization & cleanup).
+](https://peerpad.net/#/r/markdown/GjUg4FH9sBHMz9u9cM92qip4h2BpDYti3zs4pLNXcbaq/4XTTM7bUU7c86WEfTAZdVQkztkgipF4XFYbcA3sBHhV1RjCex)
